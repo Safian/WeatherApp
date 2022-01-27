@@ -7,7 +7,6 @@
 
 import Foundation
 import Combine
-import UIKit
 
 class WeatherDetailsViewModel {
 
@@ -22,7 +21,6 @@ class WeatherDetailsViewModel {
 
     // MARK: - Published
     @Published var detailsModels: DetailsViewModel? = nil
-    @Published var icon: UIImage? = nil
     @Published var error: String? = nil
 
     // MARK: - public Functions
